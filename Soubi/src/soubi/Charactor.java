@@ -3,25 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package colosseo;
+package soubi;
 
+/**
+ *
+ * @author Rei Hatano
+ */
 
-
-abstract class Character {
+    abstract class Charactor {
     
-    String name;
-    int hp;
-    int strength;
-    int fitness;
+   private String name;
+   private int hp;
+   private int strength;
     
-    //コンストラクタ
-    public Character(String name, int hp, int strength, int fitness){
+ public Charactor(String name, int hp, int strength){
         this.name=name;
         this.hp=hp;
         this.strength=strength;
-        this.fitness=fitness;
-        
-    }  
+ }
+   
         public String getName(){
             return name;
         }
@@ -34,11 +34,7 @@ abstract class Character {
             return strength;
         }
         
-        public int getFitness(){
-            return fitness;
-        }
-        
-       
-        
-    
+         public void setStrength(int strength) {
+        this.strength = strength;
+    }
 }

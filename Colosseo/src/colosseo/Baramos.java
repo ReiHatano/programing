@@ -9,19 +9,13 @@ package colosseo;
  *
  * @author Rei Hatano
  */
-public class Hero extends Charactor{
-    
-    //コンストラクタ
-    public Hero(String name, int hp, int strength){
+public class Baramos extends Charactor{
+    Baramos(String name, int hp, int strength){
         this.name=name;
         this.hp=hp;
         this.strength=strength;
-        
     }
- 
-    }
-    
-     public void doNo1(Charactor opponent) {
+    public void doNo1(Charactor opponent) {
         
     }
 
@@ -50,5 +44,4 @@ public class Hero extends Charactor{
        
     }
 
-    
 }

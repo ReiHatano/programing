@@ -24,6 +24,9 @@ public abstract class Charactor implements ICharactor {
     }
 
     public void doAction(ICharactor opponent) {
+        
+        
+        
         //サイコロを振って攻撃判定。
         switch (DQUtils.rollDice()) {
             case 1:

@@ -9,6 +9,42 @@ package colosseo;
  *
  * @author Rei Hatano
  */
-public class Skeleton {
+public class Skeleton extends Charactor{
+    public Skeleton(String name, int hp, int strength){
+       
+        this.name=name;
+        this.hp=hp;
+        this.strength=strength;
+        
+   
+    }
+    public void doNo1(Charactor opponent) {
+        
+    }
+
     
+    public void doNo2(Charactor opponent) {
+       
+    }
+
+
+    public void doNo3(Charactor opponent) {
+        
+    }
+
+  
+    public void doNo4(Charactor opponent) {
+       
+    }
+
+   
+    public void doNo5(Charactor opponent) {
+       
+    }
+
+    
+    public void doNo6(Charactor opponent) {
+       
+    }
+
 }

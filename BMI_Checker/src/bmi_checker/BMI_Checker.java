@@ -17,7 +17,7 @@ public class BMI_Checker {
     System.out.print("あなたの体重を入力してください（単位はKｇです）:");  
     double a = input.nextDouble(); 
     System.out.println(a+ "kg");
-     System.out.print("あなたの身長を入力してください（単位はメートルです）:"); 
+     System.out.print("あなたの身長を入力してください（単位はセンチメートルです）:"); 
     double b = input.nextDouble(); 
     System.out.println(b+ "cm");
     b=b/10.0;
